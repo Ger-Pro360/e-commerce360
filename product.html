@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - E-commerce</title>
+  <link rel="shortcut icon" href="../favicon.ico">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">  
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="assets/css/theme.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <style>
+    .product-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      transition: transform 0.3s;
+    }
+    .product-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .btn-buy {
+      background-color: green;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container py-5">
+    <h2 class="text-center mb-4 text-danger">Our Products</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4" >
+        <div class="product-card text-center">
+          <img src="assets/images/cars/fc1.png" class="img-fluid" alt="Car">
+          <h5 class="mt-2">Sedan Car</h5>
+          <p>$15,000</p>
+          <button class="btn btn-buy">Buy Now</button>
+        </div>
+      </div>
+      <!-- Repeat other products similarly -->
+    </div>
+  </div>
+</body>
+</html>
